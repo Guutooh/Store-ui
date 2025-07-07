@@ -1,10 +1,15 @@
 import './App.css'
 import Header from "./components/Header.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import React from 'react';
 
 function App() {
 
     return (
-      <Header/>
+        <React.Fragment>
+            <Header/>
+            <Footer/>
+        </React.Fragment>
     );
 }
 
